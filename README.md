@@ -32,8 +32,7 @@ This project was originally developed for an academic assignment and has been st
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/dcan-tech/towers-of-hanoi.git](https://github.com/dcan-tech/towers-of-hanoi.git)
-    cd towers-of-hanoi
+    git clone https://github.com/dcan-tech/towers-of-hanoi.git
     ```
 
 2.  **Compile and Run:**
