@@ -44,7 +44,7 @@ This project was originally developed for an academic assignment and has been st
     ```
 
 ## Project Structure
-
+```
 towers-of-hanoi/
 ├── src/
 │   └── com/dylancanfield/towersofhanoi/
@@ -56,7 +56,7 @@ towers-of-hanoi/
 ├── out/                    # Compiled output (ignored in .gitignore)
 ├── README.md
 ├── .gitignore
-
+```
 
 ## How It Works
 
