@@ -17,7 +17,7 @@ This project was originally developed for an academic assignment and has been st
 - Recursive algorithm to solve the Towers of Hanoi puzzle
 - **User input validation** with integer constraints (max 5 discs)
 - **ASCII tower graphics** to visualize the problem before and after solving
-- **Minimal main method** (found in `TowerTester.java`)
+- **Minimal main method** (found in `TowerApp.java`)
 - **Boolean expressions & exception handling** for improved logic flow
 
 ## Installation and Usage
@@ -35,23 +35,19 @@ This project was originally developed for an academic assignment and has been st
     git clone https://github.com/dcan-tech/towers-of-hanoi.git
     ```
 
-2.  **Compile and Run:**
+# Compile all Java source files to the 'out' directory
+javac -d out src/com/dylancanfield/towersofhanoi/*.java
 
-    ```bash
-    javac -d out src/com/dylancanfield/towersofhanoi/*.java
-    java -cp out com.dylancanfield.towersofhanoi.TowerTester
-    ```
+# Run the main class
+java -cp out com.dylancanfield.towersofhanoi.TowerApp
 
 ## Project Structure
 ```
 towers-of-hanoi/
 ├── src/
-│   └── com/dylancanfield/towersofhanoi/
-│       ├── model/          # Core logic (recursive solver)
-│       ├── view/           # ASCII rendering and user interaction
-│       ├── controller/     # Handles user input and game flow
-│       ├── TowerManager.java  # Main game logic & recursive solver
-│       ├── TowerTester.java   # Minimal main method to run the program
+│   └── com/dylancanfield/hanoi/
+│       ├── HanoiSolver.java  # Main game logic & recursive solver
+│       ├── HanoiApp.java   # Minimal main method to run the program
 ├── out/                    # Compiled output (ignored in .gitignore)
 ├── README.md
 ├── .gitignore
