@@ -13,5 +13,9 @@ package-lock.json
 *.log
 *.tmp
 
-# Ignore IDE settings (e.g., IntelliJ IDEA)
-.idea/
+# IntelliJ IDEA
+ .idea/
+ *.iml
+
+ # Build output
+ out/
