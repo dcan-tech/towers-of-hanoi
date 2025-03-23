@@ -4,26 +4,29 @@ _A Java-based command-line application demonstrating recursion using the Towers 
 
 ## Project Overview
 
-This program is a **recursive algorithm demonstration** using the **Towers of Hanoi** puzzle. The goal of the game is to move a stack of discs from one tower to another following specific rules:
+This application demonstrates a **recursive algorithm** using the classic **Towers of Hanoi** puzzle. The goal is to move a stack of discs from one tower to another under the following rules:
 
-- Only one disc can be moved at a time.
-- A larger disc **cannot** be placed on top of a smaller disc.
-- The user selects the number of discs (up to 5), and the program **automatically solves the puzzle**.
+- Only one disc may be moved at a time.
+- A larger disc may **not** be placed on top of a smaller disc.
+- The user selects the number of discs (1–5), and the program **automatically solves the puzzle**.
 
-This project was originally developed for an academic assignment and has been structured for **readability, logic flow, and industry best practices**.
+Originally developed as an academic assignment, the project has been **refactored** with an emphasis on readability, logical separation, and **industry-standard practices**.
+
+---
 
 ## Features
 
-- Recursive algorithm to solve the Towers of Hanoi puzzle
-- **User input validation** with integer constraints (max 5 discs)
-- **ASCII tower graphics** to visualize the problem before and after solving
-- **Minimal main method** (found in `TowerApp.java`)
-- **Boolean expressions & exception handling** for improved logic flow
+-- Recursive algorithm with step-by-step disc movement
+- **User input validation** with integer constraints (max: 5 discs)
+- **ASCII tower graphics** before and after solving
+- Modular design using **MVC principles**
+- **Minimal main method** in `TowerApp.java`
+- Clean error handling and loop control
 
 ## Installation and Usage
 
 ### Prerequisites
-- Java 17 or later
+- Java 17 or later (Java 22+ recommended)
 
 ### Clone the Repository
 
@@ -38,7 +41,7 @@ This project was originally developed for an academic assignment and has been st
 # Compile all Java source files to the 'out' directory
 javac -d out src/com/dylancanfield/hanoi/*.java
 
-# Run the main class
+# Run the main application
 java -cp out com.dylancanfield.hanoi.TowerApp
 
 ## Project Structure
@@ -60,18 +63,19 @@ towers-of-hanoi/
 
 ## How It Works
 
-* The program welcomes the user with an ASCII representation of the three towers.
-* The user enters the number of discs (1-5).
-* The program validates the input and automatically solves the puzzle.
-* It prints each move taken to solve the puzzle.
-* The final solved tower is displayed using ASCII graphics.
-* The user is prompted to play again or exit.
+* A welcome message and ASCII representation of the towers are displayed.
+* The program prompts the user to enter a disc count (1–5), with input validation.
+* A recursive algorithm determines the steps required to solve the puzzle.
+* Each move is printed step by step in the correct order.
+* The final solved tower is shown using ASCII graphics.
+* The user is then asked whether they'd like to play again or exit.
 
 ## Planned Enhancements
 
-* Add support for more than 5 discs for advanced users.
-* Implement graphical visualization instead of ASCII output.
-* Improve display formatting for a cleaner output.
+* Support for more than 5 discs
+* Graphical visualization (GUI) in place of ASCII
+* Real-time disc movement simulation
+* Cleaner spacing/alignment in ASCII output
 
 ## Author
 
