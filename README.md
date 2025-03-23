@@ -36,10 +36,10 @@ This project was originally developed for an academic assignment and has been st
     ```
 
 # Compile all Java source files to the 'out' directory
-javac -d out src/com/dylancanfield/towersofhanoi/*.java
+javac -d out src/com/dylancanfield/hanoi/*.java
 
 # Run the main class
-java -cp out com.dylancanfield.towersofhanoi.TowerApp
+java -cp out com.dylancanfield.hanoi.TowerApp
 
 ## Project Structure
 ```
