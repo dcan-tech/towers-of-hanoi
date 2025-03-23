@@ -38,10 +38,10 @@ Originally developed as an academic assignment, the project has been **refactore
     git clone https://github.com/dcan-tech/towers-of-hanoi.git
     ```
 
-# Compile all Java source files to the 'out' directory
+## Compile all Java source files to the 'out' directory
 javac -d out src/com/dylancanfield/hanoi/*.java
 
-# Run the main application
+## Run the main application
 java -cp out com.dylancanfield.hanoi.TowerApp
 
 ## Project Structure
