@@ -16,7 +16,7 @@ Originally developed as an academic assignment, the project has been **refactore
 
 ## Features
 
--- Recursive algorithm with step-by-step disc movement
+- Recursive algorithm with step-by-step disc movement
 - **User input validation** with integer constraints (max: 5 discs)
 - **ASCII tower graphics** before and after solving
 - Modular design using **MVC principles**
