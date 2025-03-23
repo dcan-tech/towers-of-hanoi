@@ -46,9 +46,14 @@ java -cp out com.dylancanfield.towersofhanoi.TowerApp
 towers-of-hanoi/
 ├── src/
 │   └── com/dylancanfield/hanoi/
-│       ├── HanoiSolver.java  # Main game logic & recursive solver
-│       ├── HanoiApp.java   # Minimal main method to run the program
-├── out/                    # Compiled output (ignored in .gitignore)
+│       ├── TowerApp.java               # Minimal entry point (main method)
+│       ├── controller/
+│       │   └── TowerCLIController.java # Handles input flow and game loop
+│       ├── model/
+│       │   └── HanoiSolver.java        # Recursive logic for solving the puzzle
+│       └── view/
+│           └── AsciiView.java          # Responsible for all console output
+├── out/                                # Compiled class files (ignored via .gitignore)
 ├── README.md
 ├── .gitignore
 ```
