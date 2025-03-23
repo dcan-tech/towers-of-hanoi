@@ -42,7 +42,7 @@ cd towers-of-hanoi
 
 ```bash
 # Compile all Java source files to the 'out' directory
-javac -d out src/com/dylancanfield/hanoi/**/*.java
+javac -d out src/com/dylancanfield/hanoi/*.java src/com/dylancanfield/hanoi/*/*.java
 
 # Run the main class
 java -cp out com.dylancanfield.hanoi.TowerApp
